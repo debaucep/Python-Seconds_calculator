@@ -1,0 +1,7 @@
+seconds_in_hour = 3600
+hours_a_day = 24
+total_seconds_a_day = seconds_in_hour * hours_a_day
+requsted_time_hours = 19
+requsted_time_minuts = 40
+seconds_a_day_left = total_seconds_a_day - (requsted_time_hours * 3600) - (requsted_time_minuts * 60)
+print ('Dear Sir - this day left only ' + str(seconds_a_day_left) + ' seconds - hurry up to make your things done!')
